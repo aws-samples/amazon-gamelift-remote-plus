@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLiftRemotePlus", "GameLiftRemotePlus.csproj", "{9D8D86BE-D01C-4E3E-B51C-567FDF93494D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86E9B45D-CD21-4C0D-9973-3FB0765BFDA3} = {86E9B45D-CD21-4C0D-9973-3FB0765BFDA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLR", "KeyConvert\CLR.vcxproj", "{86E9B45D-CD21-4C0D-9973-3FB0765BFDA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D8D86BE-D01C-4E3E-B51C-567FDF93494D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9D8D86BE-D01C-4E3E-B51C-567FDF93494D}.Debug|x86.Build.0 = Debug|Any CPU
+		{9D8D86BE-D01C-4E3E-B51C-567FDF93494D}.Release|x86.ActiveCfg = Release|Any CPU
+		{9D8D86BE-D01C-4E3E-B51C-567FDF93494D}.Release|x86.Build.0 = Release|Any CPU
+		{86E9B45D-CD21-4C0D-9973-3FB0765BFDA3}.Debug|x86.ActiveCfg = Debug|Win32
+		{86E9B45D-CD21-4C0D-9973-3FB0765BFDA3}.Debug|x86.Build.0 = Debug|Win32
+		{86E9B45D-CD21-4C0D-9973-3FB0765BFDA3}.Release|x86.ActiveCfg = Release|Win32
+		{86E9B45D-CD21-4C0D-9973-3FB0765BFDA3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD8D5B5C-2114-4D0D-9937-BDA21F995006}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: MIT-0
+
+
+
+
+Tasks
+======================================
+
+Update UI every 30 seconds if no change
+
+Write full tutorial with README.md file and images
+
+Fix bug: Running application from other than the executable directory causes PEM for linux instances to download into wrong directory preventing SSH connection because PEM to PPK conversion fails.
+
+Complete the documentation file
+
+rename to amazon-gamelift-remote-plus
+
+Note if Delete Fleet is unavailable that the feature can be enabled in settings.
+
+1. Addition of delete button for builds
+1. Code to delete a build when called
+1. Addition of delete button for aliases
+1. Code to delete an alias when called
+1. Complete the documentation file
